@@ -1,95 +1,131 @@
-
-.menu-btn{
+.menu-btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.offcanvas-body{
+
+.offcanvas-body {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.offcanvas-body h5{
+
+.offcanvas-body h5 {
   text-align: center;
 }
-.tesla_icon{
+
+.tesla_icon {
   height: 80px;
   width: 100px;
   overflow: hidden;
   margin-left: 50px;
 }
-.card-title{
+
+.card-title {
   text-align: center;
   margin-top: 50px;
   font-size: 50px;
   line-height: 44px;
 }
-.card-text{
+
+.card-text {
   font-size: xx-large;
   text-align: center;
 }
-.card-text1{
+
+.card-text1 {
   font-size: large;
   text-align: center;
 }
-.order_learn-button div{
+
+.order_learn-button div {
   position: absolute;
   bottom: 50px;
   right: 28%;
 }
-.order_learn-button button{
+
+.order_learn-button button {
   padding-left: 100px;
   padding-right: 100px;
   margin: 10px;
 }
 
-.home_buy_buttons{
+.home_buy_buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 20px;
 }
-.nav_bar_images{
+
+.nav_bar_images {
   width: 200px;
 }
-.Tesla_Cybertruck-Logo img{
+
+.Tesla_Cybertruck-Logo img {
   width: 500px;
   position: relative;
 }
-.Tesla_Cybertruck-Logo p{
+
+.Tesla_Cybertruck-Logo p {
   font-size: 25px;
   font-weight: 600;
   position: relative;
   margin-top: -100px;
 }
 
-.Tesla_Cybertruck-Logo{
+.Tesla_Cybertruck-Logo {
   display: flex;
   flex-direction: column;
   justify-content: first baseline;
   align-items: center;
 }
-.bottom_footer{
+
+.bottom_footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-weight: 500;
 }
-.bottom_footer a{
+
+.bottom_footer a {
   text-decoration: none;
   color: rgb(110, 109, 109);
 }
-.footer{
+
+.footer {
   width: 600px;
   margin: auto;
   color: rgb(104, 101, 101);
   font-size: 12px;
   margin-bottom: 40px;
 }
-.footer a{
+
+.footer a {
   color: grey;
 }
 
-@media only screen and (max-width: 768px) {
+div:has(.custom-video-section) {
+  padding: 0 !important;
+}
 
+video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .video-for-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .video-for-desktop {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+  }
 }
